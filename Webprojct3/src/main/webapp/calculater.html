@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0%;
+      padding: 0;
+    }
+    center {
+      margin-top: 50px;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input[type="number"] {
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 200px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+
+</head>
+		<body>
+			<center>
+				<form action="calculator.jsp" method="post">
+					Enter the First_Number:<input type="number" name="firstNumber"></br>
+					Enter the second_Number:<input type="number" name="secondNumber"></br>
+					</br>
+					<input type="submit" name="operation" value="+";>
+					<input type="submit" name="operation" value="-";>
+					<input type="submit" name="operation" value="*";>
+					<input type="submit" name="operation" value="/";>
+					
+					
+				</form>
+			</center>
+
+		</body>
+</html>
